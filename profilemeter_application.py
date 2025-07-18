@@ -8,6 +8,7 @@ import time
 
 import numpy as np
 import PIL
+#import matplotlib.pyplot as plt
 
 ##############################################################################
 # sample_ImageAcquisition.py: LJ-S Image acquisition sample.
@@ -261,8 +262,8 @@ def main():
     #
     ##################################################################
     if True:
-        fig = plt.figure(figsize=(8.0, 2*interpolate_yline+1))
-        plt.subplots_adjust(hspace=0.5)
+        #fig = plt.figure(figsize=(8.0, 2*interpolate_yline+1))
+        #plt.subplots_adjust(hspace=0.5)
 
         # Height image display
         img1 = PIL.Image.new('I', (xsize, ysize))
